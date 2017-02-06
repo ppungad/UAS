@@ -1,0 +1,621 @@
+body{
+	background-color:#3e5ea1;
+	margin:0;
+}
+
+/*header*/
+#header{
+	background-color:#293e6a;
+	width:100%;
+	height:110px;
+	position:fixed;
+	z-index:3;
+	top:0;
+}
+#logo{
+	float:left;
+	height:110px;
+	margin-left:10px;
+}
+#menu{
+	float:left;
+	padding-top:20px;
+}
+#menu a{
+	color:#ffffff;
+	text-decoration:none;
+	font-family:"Comic Sans MS";
+}
+#menu li{
+	list-style:none;
+	float:left;
+	margin-left: 20px;
+	font-size:20px;
+}
+#name{
+	color:#ffffff;
+	font-family:'allan';
+	font-size:30px;
+	margin-left:50px;
+	margin-right:70px;
+	float:right;
+	padding-top:34px;
+}
+#name a{
+	text-decoration:none;
+	color:#fff;
+}
+#menu a:hover{
+	color:#ff8c00;
+	transition:all .3s ease;
+}
+a#link-active{color:#ff8c00;}
+
+/*slide*/
+#slide{
+	width:100%;
+	height:550px;
+}
+#slide img{
+	width:100%;
+	height:auto;
+	padding-top:110px;
+	position:fixed;
+}
+
+/*isi*/
+#isi{
+	position:relative;
+	z-index:2;
+	padding-top:660px;
+}
+#isi-for-men{
+	position:relative;
+	z-index:2;
+	padding-top:110px;
+}
+/*sponsor*/
+#sponsor{
+	background-color:#293e6a;
+	margin-top:25px;
+}
+#isi-sponsor{
+	width:960px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#fff;
+	font-family:'allan';
+	font-size:24px;
+}
+#logo-sponsor{
+	vertical-align:middle;
+	margin-left:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:800px;
+	height:80;
+}
+/*Opening*/
+#opening{
+	width:100%;
+	height:600px;
+	padding-top:100px;
+	background-color:#37548f;
+}
+#bungkus-opening{
+	width:960px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#isi-opening{
+	padding-right:400px;
+}
+#judul-opening{
+	font-family:'allan';
+	color:#ff8c00;
+	font-size:80px;
+	margin-top:-20px;
+}
+#deskripsi-opening{
+	font-family:'Arial';
+	color:#fff;
+	font-size:18px;
+	line-height:25px;
+	text-align:justify;
+}
+/*Sambutan*/
+#sambutan{
+	background-color:#3e5ea1;
+	width:100%;
+	height:auto;
+	padding-top:100px;
+	padding-bottom:auto;
+}
+#bungkus-sambutan{
+	width:960px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#foto-owner{
+	width:300px;
+	height:300px;
+	border-radius:150px;
+	float:left;
+}
+#isi-sambutan{
+	width:550px;
+	height:300px;
+	float:right;
+	text-align:justify;
+}
+#subjudul-sambutan{
+	font-family:"Times New Roman";
+	color:#fff;
+	font-size:30px;
+}
+#judul-sambutan {
+	font-family:'allan';
+	color:#ff8c00;
+	font-size: 80px;
+	margin-top: -20px; 
+}
+#deskripsi-sambutan {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 18px;
+	line-height: 25px;
+	padding-top:30px;
+	color:#fff;
+}
+
+#owner {
+	font-family: Arial;
+	color: #2e3436;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top:20px;
+	color:#fff;
+}
+/*Footer*/
+#footer{
+	background-color:#293e6a;
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:20px;
+	color:#fff;
+}
+#sosmed-footer img{
+	width:25px;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#label-footer{
+	font-family:'berlin sans fb';
+	font-size:20px;
+	color:#fff;
+}
+#fb{}
+#tw{margin-left:5px;}
+#ig{margin-left:5px;}
+#in{margin-left:5px;}
+#b{margin-left:5px;}
+#telp{
+	font-family:'bookman old style';
+	color:#ff8c00;
+}
+#email{
+	font-family:'bookman old style';
+}
+#email a{
+	text-decoration:None;
+	color:#ff8c00;
+}
+#web{
+	font-family:'bookman old style';
+}
+#web a{
+	text-decoration:none;
+	color:#ff8c00;
+}
+#copyright{
+	font-family:'bookman old style';
+}
+/************************************FOR MEN************************************/
+
+/***gucci01***/
+#gucciM01{
+	background-color:#1b2845;
+	width:100%;
+	height:500px;;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#bungkus-gucci01{
+	width:960px;
+	height:400px;
+	margin-left:100px;
+	margin-right:auto;
+}
+#foto-gucci01{
+	width:350px;
+	height:350px;
+	border-radius:20px;
+	float:left;
+}
+#tombol {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+	text-decoration:none;
+}
+#tombol a{
+	color:#f88601;
+}
+#isi-gucci01{
+	padding-bottom:50px;
+	width:550px;
+	height:300px;
+	float:right;
+	text-align:justify;
+}
+#judul-gucci01{
+	margin-left:50px;
+	font-family:'stoke';
+	font-size:30px;
+}
+#brand img{
+	margin-left:50px;
+	width:75px;
+	height:75px;
+	padding-bottom:20px;
+}
+#subjudul-gucci01{
+	margin-left:50px;
+	font-size:18px;
+	padding-top:20px;
+}
+#subsubjudul-gucci01{
+	margin-left:50px;
+	font-size:18px;
+}
+#subsubjudul-gucci01 a{
+	text-decoration:none;
+	color:#ff8c00;
+}
+#deskripsi-gucci01{
+	padding-top:10px;
+	margin-left:50px;
+	font-size:18px;
+}
+#warna{
+	color:#f88601;
+}
+/***gucci02***/
+#gucciM02{
+	background-color:#30497c;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+
+/***gucciM03***/
+#gucciM03{
+	background-color:#3e5ea1;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+
+/***ADIDASM01***/
+#adidasM01{
+	background-color:#1b2845;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#judul-adidasm01 img{
+	width: 150px;
+	height:auto;
+	margin-left:50px;
+	padding-top:0;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+
+/***ADIDASM02***/
+#adidasM02{
+	background-color:#30497c;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#judul-adidasm01 img{
+	width: 150px;
+	height:auto;
+	margin-left:50px;
+	padding-top:0;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+
+/***ADIDASM03***/
+#adidasM03{
+	background-color:#3e5ea1;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#judul-adidasm01 img{
+	width: 150px;
+	height:auto;
+	margin-left:50px;
+	padding-top:0;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+
+/************************************FOR WOMEN************************************/
+
+/***gucciWM01***/
+#gucciWM01{
+	background-color:#1b2845;
+	width:100%;
+	height:500px;;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#bungkus-gucci01{
+	width:960px;
+	height:400px;
+	margin-left:100px;
+	margin-right:auto;
+}
+#foto-gucci01{
+	width:350px;
+	height:350px;
+	border-radius:20px;
+	float:left;
+}
+#tombol {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol a{
+	text-decoration:none;
+	color:#f88601;
+}
+#isi-gucci01{
+	padding-bottom:50px;
+	width:550px;
+	height:300px;
+	float:right;
+	text-align:justify;
+}
+#judul-gucci01{
+	margin-left:50px;
+	font-family:'stoke';
+	font-size:30px;
+}
+#judul-gucci01 img{
+	width:75px;
+	height:75px;
+	padding-bottom:20px;
+}
+#subjudul-gucci01{
+	margin-left:50px;
+	font-size:18px;
+}
+#subsubjudul-gucci01{
+	margin-left:50px;
+	font-size:18px;
+}
+#subsubjudul-gucci01 a{
+	text-decoration:none;
+	color:#ff8c00;
+}
+#deskripsi-gucci01{
+	padding-top:10px;
+	margin-left:50px;
+	font-size:18px;
+}
+
+/***gucciWM02***/
+#gucciWM02{
+	background-color:#30497c;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
+/***gucciWM03***/
+#gucciWM03{
+	background-color:#3e5ea1;
+	width:100%;
+	height:500px;
+	padding-top:50px;
+	padding-bottom:50px;
+	font-family:"Times New Roman";
+	color:#fff;
+	line-height:20px;
+}
+#tombol01 {
+	width: 150px;
+	height: 20px;
+	background-color: #fff;
+	color: #f88601;
+	font-family: "Times New Roman";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	border-radius:10px;
+}
+#tombol01 a{
+	text-decoration:none;
+	color:#f88601;
+}
